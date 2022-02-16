@@ -5,7 +5,7 @@ from inspect import getsource
 from os import makedirs
 from os.path import exists
 import networkx as nx
-from fib import fib
+from ast_drawer_ses.fib import fib
 import pprint
 from networkx.drawing.nx_pydot import graphviz_layout
 
