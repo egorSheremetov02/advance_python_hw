@@ -14,7 +14,7 @@ PROJECT_NAME = "ast_drawer_ses"
 
 setup(
     name=PROJECT_NAME,
-    version="0.0.3",
+    version="0.0.4",
     author="Egor Sheremetov",
     author_email="egor.sheremetov@yandex.ru",
     description="Simple project that lets tou draw an AST",
