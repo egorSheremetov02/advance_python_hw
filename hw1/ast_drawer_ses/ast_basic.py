@@ -20,8 +20,8 @@ def draw_ast(func):
     g = nx.DiGraph()
     build_networkx_graph_from_ast(func_ast, g)
     p = nx.drawing.nx_pydot.to_pydot(g)
-    if not exists('artifacts'):
-        makedirs('artifacts')
+    if not exists('../artifacts'):
+        makedirs('../artifacts')
     p.write_png('artifacts/ast_basic.png')
 
 

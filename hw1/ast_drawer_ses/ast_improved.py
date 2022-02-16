@@ -85,8 +85,8 @@ def draw_ast(func):
     build_networkx_graph_from_ast(func_ast, node_info(func_ast), g)
     g.remove_nodes_from(list(nx.isolates(g)))
     p = nx.drawing.nx_pydot.to_pydot(g)
-    if not exists('artifacts'):
-        makedirs('artifacts')
+    if not exists('../artifacts'):
+        makedirs('../artifacts')
     # I think there is a bug in this function, probably later I will leave bugreport or something
     # It leaves me with some isolated vertices, which are not present in g before calling to_pydot function
     p.write_png('artifacts/ast_improved.png')
