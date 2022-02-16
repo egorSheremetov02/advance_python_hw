@@ -1,6 +1,6 @@
 from latex_table_generator import create_table
 from latex_file_generator import create_latex_file
-import os.path
+import os
 
 if __name__ == '__main__':
     if not os.path.exists('artifacts/'):
