@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6fd3283d8fbfcbd571da041d805eb3399544073873371dbec49fc2b0928a7469"
+            "sha256": "2918861aa4c5c67cf724e385c2abff56d8ab821d5be151b7c7e2cdc37eb7ff38"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -12,10 +12,23 @@
                 "name": "pypi",
                 "url": "https://pypi.org/simple",
                 "verify_ssl": true
+            },
+            {
+                "name": "pypi2",
+                "url": "https://pypi.org/project",
+                "verify_ssl": false
             }
         ]
     },
     "default": {
+        "ast-drawer-ses": {
+            "hashes": [
+                "sha256:494013bb6c70d1717cb5d7d24fa1e3dc853264ce92ca37106569c558e0e117d8",
+                "sha256:febecef43c22673978bbfafeed2a9722f0277225ae80066fc59447a5edd845d7"
+            ],
+            "index": "pypi",
+            "version": "==0.0.2"
+        },
         "pymonad": {
             "hashes": [
                 "sha256:6b9d98e40bf2e0f1cc1900309365f9ba4997f3432a1d6e71f80f41ace2890204",

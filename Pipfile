@@ -3,8 +3,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+url = "https://pypi.org/project"
+verify_ssl = false
+name = "pypi2"
+
 [packages]
 pymonad = "*"
+ast-drawer-ses = "0.0.2"
 
 [dev-packages]
 
