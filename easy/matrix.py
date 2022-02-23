@@ -38,7 +38,7 @@ class Matrix:
             for j in range(self.c):
                 nmat[i][j] = self.mat[i][j] + other.mat[i][j]
 
-        return Matrix(nmat)
+        return self.__class__(nmat)
 
     def __mul__(self, other):
         if self.c != other.c or self.r != other.r:
@@ -50,7 +50,7 @@ class Matrix:
             for j in range(self.c):
                 nmat[i][j] = self.mat[i][j] * other.mat[i][j]
 
-        return Matrix(nmat)
+        return self.__class__(nmat)
 
     def __matmul__(self, other):
         if self.c != other.r:
@@ -65,8 +65,7 @@ class Matrix:
                     # but I will go with the simplest possible approach
                     nmat[i][j] += self.mat[i][k] * other.mat[k][j]
 
-        return Matrix(nmat)
+        return self.__class__(nmat)
 
     def __str__(self):
         return '\n'.join([' '.join([str(el) for el in row]) for row in self.mat])
-
