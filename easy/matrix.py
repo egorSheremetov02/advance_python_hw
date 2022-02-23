@@ -1,6 +1,3 @@
-from numpy import random
-
-
 def gen_matrix(rows: int, cols: int):
     return [[0 for _ in range(cols)] for _ in range(rows)]
 
@@ -44,6 +41,18 @@ class Matrix:
         return Matrix(nmat)
 
     def __mul__(self, other):
+        if self.c != other.c or self.r != other.r:
+            raise Exception("can't add matrices with different dimensions")
+
+        nmat = gen_matrix(self.r, self.c)
+
+        for i in range(self.r):
+            for j in range(self.c):
+                nmat[i][j] = self.mat[i][j] * other.mat[i][j]
+
+        return Matrix(nmat)
+
+    def __matmul__(self, other):
         if self.c != other.r:
             raise Exception(f"can't multiply matrices A that has {self.c} columns and B that has {other.r} rows")
 
@@ -58,36 +67,6 @@ class Matrix:
 
         return Matrix(nmat)
 
-    def __matmul__(self, other):
-        if self.c != other.c or self.r != other.r:
-            raise Exception("can't add matrices with different dimensions")
-
-        nmat = gen_matrix(self.r, self.c)
-
-        for i in range(self.r):
-            for j in range(self.c):
-                nmat[i][j] = self.mat[i][j] * other.mat[i][j]
-
-        return Matrix(nmat)
-
     def __str__(self):
         return '\n'.join([' '.join([str(el) for el in row]) for row in self.mat])
 
-
-if __name__ == '__main__':
-    a = Matrix(random.randint(0, 10, (10, 10)))
-    b = Matrix(random.randint(0, 10, (10, 10)))
-    op_map = {
-        '+': lambda m1, m2: m1 + m2,
-        '*': lambda m1, m2: m1 * m2,
-        '@': lambda m1, m2: m1 @ m2,
-    }
-    for op in ['+', '*', '@']:
-        fun = op_map[op]
-        with open(f'../artifacts/easy/matrix{op}.txt', 'w') as file:
-            file.write("Matrix a:\n")
-            file.write(str(a) + '\n')
-            file.write("Matrix b:\n")
-            file.write(str(b) + '\n')
-            file.write(f"Matrix a {op} b:\n")
-            file.write(str(fun(a, b)))
