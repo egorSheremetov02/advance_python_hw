@@ -1,0 +1,3 @@
+sequential execution, time taken: 591164 microseconds
+multiprocessing execution, time taken: 279929 microseconds
+multithreading execution, time taken: 410810 microseconds
