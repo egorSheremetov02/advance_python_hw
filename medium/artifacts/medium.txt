@@ -1,96 +1,144 @@
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 1000000)
-INFO:root:time: 140229 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 1000000)
-INFO:root:time: 75275 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 1000000)
-INFO:root:time: 57672 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 1000000)
-INFO:root:time: 46374 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 1000000)
-INFO:root:time: 39112 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 1000000)
-INFO:root:time: 36972 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 1000000)
-INFO:root:time: 40425 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 1000000)
-INFO:root:time: 42637 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 1000000)
-INFO:root:time: 43114 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 1000000)
-INFO:root:time: 40438 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 1000000)
-INFO:root:time: 43559 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 1000000)
-INFO:root:time: 41650 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 10000000)
-INFO:root:time: 449757 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 10000000)
-INFO:root:time: 674898 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 10000000)
-INFO:root:time: 477170 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 10000000)
-INFO:root:time: 369616 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 10000000)
-INFO:root:time: 398404 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 10000000)
-INFO:root:time: 271124 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 10000000)
-INFO:root:time: 279080 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 10000000)
-INFO:root:time: 267182 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 10000000)
-INFO:root:time: 239664 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 10000000)
-INFO:root:time: 217346 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 10000000)
-INFO:root:time: 220345 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 10000000)
-INFO:root:time: 274930 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 1000000)
-INFO:root:time: 156049 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 1000000)
-INFO:root:time: 188903 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 1000000)
-INFO:root:time: 203504 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 1000000)
-INFO:root:time: 203278 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 1000000)
-INFO:root:time: 209855 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 1000000)
-INFO:root:time: 202733 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 1000000)
-INFO:root:time: 201692 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 1000000)
-INFO:root:time: 193190 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 1000000)
-INFO:root:time: 214151 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 1000000)
-INFO:root:time: 208740 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 1000000)
-INFO:root:time: 207057 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 1000000)
-INFO:root:time: 220468 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 10000000)
-INFO:root:time: 531270 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 10000000)
-INFO:root:time: 624048 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 10000000)
-INFO:root:time: 605686 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 10000000)
-INFO:root:time: 694426 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 10000000)
-INFO:root:time: 723316 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 10000000)
-INFO:root:time: 752327 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 10000000)
-INFO:root:time: 685416 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 10000000)
-INFO:root:time: 731465 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 10000000)
-INFO:root:time: 740780 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 10000000)
-INFO:root:time: 731566 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 10000000)
-INFO:root:time: 726424 microseconds
-INFO:root:integrating function: integrate_via_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 10000000)
-INFO:root:time: 702169 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 1000000)
+INFO:root:time: 165169 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 1000000)
+INFO:root:time: 89359 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 1000000)
+INFO:root:time: 74891 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 1000000)
+INFO:root:time: 60813 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 1000000)
+INFO:root:time: 49961 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 1000000)
+INFO:root:time: 46563 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 1000000)
+INFO:root:time: 41698 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 1000000)
+INFO:root:time: 43504 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 1000000)
+INFO:root:time: 44706 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 1000000)
+INFO:root:time: 43363 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 1000000)
+INFO:root:time: 51690 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 1000000)
+INFO:root:time: 47677 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 10000000)
+INFO:root:time: 357711 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 10000000)
+INFO:root:time: 721891 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 10000000)
+INFO:root:time: 482743 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 10000000)
+INFO:root:time: 359549 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 10000000)
+INFO:root:time: 375688 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 10000000)
+INFO:root:time: 328977 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 10000000)
+INFO:root:time: 300382 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 10000000)
+INFO:root:time: 252392 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 10000000)
+INFO:root:time: 236543 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 10000000)
+INFO:root:time: 234918 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 10000000)
+INFO:root:time: 212188 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 10000000)
+INFO:root:time: 205606 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 100000000)
+INFO:root:time: 823197 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 100000000)
+INFO:root:time: 893837 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 100000000)
+INFO:root:time: 556929 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 100000000)
+INFO:root:time: 452784 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 100000000)
+INFO:root:time: 75869 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 100000000)
+INFO:root:time: 404901 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 100000000)
+INFO:root:time: 825260 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 100000000)
+INFO:root:time: 334198 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 100000000)
+INFO:root:time: 306830 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 100000000)
+INFO:root:time: 989593 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 100000000)
+INFO:root:time: 943337 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.process.ProcessPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 100000000)
+INFO:root:time: 829064 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 1000000)
+INFO:root:time: 135313 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 1000000)
+INFO:root:time: 166921 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 1000000)
+INFO:root:time: 169548 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 1000000)
+INFO:root:time: 179162 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 1000000)
+INFO:root:time: 179910 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 1000000)
+INFO:root:time: 170743 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 1000000)
+INFO:root:time: 190712 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 1000000)
+INFO:root:time: 177069 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 1000000)
+INFO:root:time: 201863 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 1000000)
+INFO:root:time: 188840 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 1000000)
+INFO:root:time: 195905 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 1000000)
+INFO:root:time: 188128 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 10000000)
+INFO:root:time: 342198 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 10000000)
+INFO:root:time: 616775 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 10000000)
+INFO:root:time: 38770 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 10000000)
+INFO:root:time: 881903 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 10000000)
+INFO:root:time: 774130 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 10000000)
+INFO:root:time: 727157 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 10000000)
+INFO:root:time: 776835 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 10000000)
+INFO:root:time: 760088 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 10000000)
+INFO:root:time: 764400 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 10000000)
+INFO:root:time: 708462 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 10000000)
+INFO:root:time: 828126 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 10000000)
+INFO:root:time: 866417 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 1, 100000000)
+INFO:root:time: 782818 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 2, 100000000)
+INFO:root:time: 242485 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 3, 100000000)
+INFO:root:time: 986513 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 4, 100000000)
+INFO:root:time: 277986 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 5, 100000000)
+INFO:root:time: 320843 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 6, 100000000)
+INFO:root:time: 765089 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 7, 100000000)
+INFO:root:time: 330879 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 8, 100000000)
+INFO:root:time: 211045 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 9, 100000000)
+INFO:root:time: 403677 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 10, 100000000)
+INFO:root:time: 108392 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 11, 100000000)
+INFO:root:time: 823457 microseconds
+INFO:root:integrating function: integrate_via_pool_executor with arguments (<class 'concurrent.futures.thread.ThreadPoolExecutor'>, <built-in function sin>, 0, 1.5707963267948966, 12, 100000000)
+INFO:root:time: 403479 microseconds

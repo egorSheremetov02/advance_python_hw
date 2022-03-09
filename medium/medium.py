@@ -43,6 +43,6 @@ def integrate_via_pool_executor(pool_executor, func, l, r, parts_count, fragment
 if __name__ == '__main__':
     executors = [ProcessPoolExecutor, ThreadPoolExecutor]
     for executor in executors:
-        for iters in [10 ** i for i in range(6, 8)]:
+        for iters in [10 ** i for i in range(6, 9)]:
             for jobs in range(1, mp.cpu_count() + 1):
                 integrate_via_pool_executor(executor, math.sin, 0, math.pi / 2, jobs, iters)
